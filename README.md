@@ -1,1 +1,1 @@
-![banner](ruta_de_la_imagen)
+![banner](https://raw.githubusercontent.com/gsanchez1687/CursoVue3/main/Banner.png)
