@@ -1,0 +1,1 @@
+![banner](ruta_de_la_imagen)
