@@ -2,7 +2,8 @@
    <h1>Property Binding Class</h1>
    <br><br>
    <hr>
-   
+   <button class="btn" :class="{'btn-primary':isPrimary, 'btn-sm':isSmall}">Boton principal</button>
+
 </template>
 
 <script setup lang="ts">
