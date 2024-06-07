@@ -1,12 +1,13 @@
 <template>
   <main>
-    <CursoDetalle :nombre="curso.nombre" :precio="curso.precio" :categoria="curso.categoria" :en-inventario="curso.enInventario" ></CursoDetalle>
+    <!--<CursoDetalle :curso="curso" ></CursoDetalle>-->
+    <Admin></Admin>
   </main>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import CursoDetalle from './components/CursoDetalle.vue';
+import Admin from './components/Admin.vue';
 
 const curso = ref({
   nombre: 'Curso de Vue 3',
